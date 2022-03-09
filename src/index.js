@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Navbar from './components/navbar/Navbar';
 import reportWebVitals from './reportWebVitals';
+import Content from './components/content/Content'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+      <Content />
   </React.StrictMode>,
   document.getElementById('root')
 );
